@@ -1,0 +1,150 @@
+.background{
+    
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+.flex-container {
+    display:flex; 
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+}
+
+/*@media screen and (max-width: 600px) {
+    .row {
+      flex-direction: column;
+    }
+  }
+*/
+
+h2,p {
+    color: white;
+}
+
+.card-text{
+    color: black;
+}
+
+#search{
+    padding-left: 8px;
+}
+
+
+#main-nav {
+   padding-right: 5%;
+ 
+} 
+
+
+
+#navlogo {
+    padding-left: 10px;
+} 
+
+
+
+#latestnewscarousel h5 {
+    font-size: xx-large;
+   
+} 
+
+#latestnewscarousel p {
+    font-size: larger;
+}  
+
+#gaming-news {
+    margin: 20px;
+}
+#gaming-news-row {
+    margin: 70px;
+}
+
+#reviews {
+    margin: 20px;
+}
+
+#reviews-row {
+    margin: 70px;  
+}
+
+#new-releases {
+    margin: 20px;
+}
+
+#new-releases-row {
+    margin: 70px;
+}
+#kirby-card .card-title {
+    position: sticky;
+    bottom: 190px;
+}
+
+footer {
+    display: block;
+    background-color: rgb(46, 44, 44) ;
+    padding: 5%;
+    margin-top: 10%;
+
+   } 
+
+   .footer-info {
+    position: relative;
+    left: 20%;
+   }
+   
+
+  .footer-logo {
+    max-width: 200px;
+    max-height: 200px; 
+    position: relative;
+    left: 55%;
+    top: 60px;
+
+  }
+
+  #facebook-icon {
+    color: white;
+  position: relative;
+  left: 5%;
+  padding: 1%;
+  } 
+
+  #twitter-icon {
+    color: white;
+    position: relative;
+    left: 5%;
+    padding: 1%;
+
+  }
+
+  #instagram-icon {
+    color: white;
+    position: relative;
+  left: 5%; 
+  padding: 1%;
+   
+  } 
+
+ /* #gaming-news {
+    animation-name: fadein;
+    animation-duration: 4s;
+  } 
+
+  @keyframes fadein {
+    0% {opacity: 0;}
+    100% {opacity: 1; }
+  } 
+*/
+  .reveal {
+    
+    opacity: 0;
+    transition: 4s all ease;
+    
+  }
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
