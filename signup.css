@@ -1,0 +1,66 @@
+.background{
+    
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+h2,p {
+    text-align: center;
+    color: white;
+} 
+
+h2 { 
+    padding: 11px;
+}
+form {
+    text-align: center;
+} 
+
+footer p {
+    background-color: darkgrey;
+    padding: 12px;
+
+  }
+
+  #button {
+background-color: darkgrey;
+padding: 16px 20px; 
+margin: 20px;
+width: 15%; 
+border-radius: 20px;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 10px;
+   margin: 30px; 
+   border: 3px solid darkgrey;
+   
+}
+
+label { 
+    color: white;
+}
+
+
+#navlogo {
+    padding-left: 5px;
+} 
+
+#latestnewscarousel h5 {
+    font-size: xx-large;
+   
+} 
+
+#latestnewscarousel p {
+    font-size: larger;
+} 
+
+#search{
+    padding-left: 8px;
+} 
+
+
+
+
