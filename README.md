@@ -1,2 +1,2 @@
 # Keep-Gaming-News
-My website site created used html, css, bootstrap
+My first website site created used html, css, bootstrap
