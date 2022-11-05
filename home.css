@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  padding:0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+
 .background{
     
     background-color: black;
@@ -13,12 +23,7 @@
   
 }
 
-/*@media screen and (max-width: 600px) {
-    .row {
-      flex-direction: column;
-    }
-  }
-*/
+
 
 h2,p {
     color: white;
@@ -60,14 +65,32 @@ h2,p {
 }
 #gaming-news-row {
     margin: 70px;
+    
 }
 
+#saints-row,
+#destiny-card,
+#pokemon-card,
+#god-of-war-card{
+  margin-right: 2em;
+}
 #reviews {
     margin: 20px;
 }
 
 #reviews-row {
     margin: 70px;  
+} 
+
+#kirby-card,
+#ai-card,
+#stray-card {
+   margin-right: 1em;
+} 
+
+#kirby-card .card-title {
+  position: relative;
+  top: 4.8em;
 }
 
 #new-releases {
@@ -77,56 +100,73 @@ h2,p {
 #new-releases-row {
     margin: 70px;
 }
-#kirby-card .card-title {
-    position: sticky;
-    bottom: 190px;
+
+#hogwarts-card,
+#splatoon-3-card,
+#gotham-knights-card,
+#disney-dream-light-valley-card {
+  margin-right: 1em;
 }
 
 footer {
-    display: block;
+    color: white;
     background-color: rgb(46, 44, 44) ;
     padding: 5%;
     margin-top: 10%;
-
-   } 
-
-   .footer-info {
-    position: relative;
-    left: 20%;
-   }
    
+} 
+
+#footer-flex {
+  display: flex;
+  flex-direction: row-reverse;
+ justify-content: space-evenly;
+} 
+
+
+#twitter-icon,
+#instagram-icon {
+    margin-left: 1em;
+}
+
+#footer-content {
+  position: relative;
+  left: 30%;
+  top: 5em; 
+}
+
+
+#footer-info {
+  margin-top: 5em;
+  font-size: 21px;
+}
+ 
+#social-icons {
+  margin-top: 3em;
+  padding-inline-start: 2em; 
+
+} 
+
 
   .footer-logo {
-    max-width: 200px;
-    max-height: 200px; 
+    max-width: 30%;
+    height: auto;
     position: relative;
-    left: 55%;
-    top: 60px;
-
-  }
-
-  #facebook-icon {
-    color: white;
-  position: relative;
-  left: 5%;
-  padding: 1%;
+    left: 50%;
+    border-radius: 10px;
   } 
+  /*
 
-  #twitter-icon {
-    color: white;
-    position: relative;
-    left: 5%;
-    padding: 1%;
-
-  }
-
+  #facebook-icon,
+  #twitter-icon,
   #instagram-icon {
-    color: white;
-    position: relative;
-  left: 5%; 
-  padding: 1%;
-   
-  } 
+   padding-left: 1em;
+   position: relative;
+   left: 10%;
+   bottom: 8em;
+    
+  
+  }
+  
 
  /* #gaming-news {
     animation-name: fadein;
@@ -147,4 +187,76 @@ footer {
   .reveal.active{
     transform: translateY(0);
     opacity: 1;
+  } 
+
+
+  @media (max-width:  991.98px) {
+    footer {
+     overflow: hidden;
+    }
   }
+  @media (max-width: 991.98px) {
+    #footer-flex {
+      display: flex;
+      flex-direction: column;
+    
+    }
+     
+  }  
+
+  @media (max-width:  991.98px) {
+    #footer-img {
+     max-width: 30em;
+     position: relative; 
+     right: 2em;
+    
+    }
+  }
+
+  @media (max-width:  991.98px){
+    #facebook-icon,
+    #twitter-icon,
+    #instagram-icon {
+      display: inline-flex;
+      position: relative;
+      right: 0.5em;
+    } 
+  }
+  @media (max-width:  991.98px) {
+    #footer-info {
+     position: relative; 
+     right: 1em;
+     bottom: 2em;
+     
+    }
+  } 
+
+  @media (max-width: 991.98px) {
+    #saints-row,
+    #destiny-card,
+    #pokemon-card,
+    #god-of-war-card {
+      margin-bottom: 1em;
+    }
+  } 
+
+  @media (max-width: 991.98px) {
+    #kirby-card,
+    #ai-card,
+    #stray-card {
+      margin-bottom: 1em;
+    }
+  } 
+
+  @media (max-width: 991.98px) {
+    #hogwarts-card,
+    #splatoon-3-card,
+    #gotham-knights-card,
+    #disney-dream-light-valley-card {
+  margin-bottom: 1em;
+}
+  }
+
+
+    
+  

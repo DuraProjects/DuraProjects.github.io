@@ -13,30 +13,33 @@ h2,p {
 h2 { 
     padding: 11px;
 }
+
 form {
     text-align: center;
 } 
 
-footer p {
-    background-color: darkgrey;
-    padding: 12px;
 
-  }
-
-  #button {
+#button {
 background-color: darkgrey;
 padding: 16px 20px; 
 margin: 20px;
-width: 15%; 
-border-radius: 20px;
+min-width: 15%; 
+border-radius: 10px;
 }
 
 input[type=text] {
     width: 50%;
     padding: 10px;
    margin: 30px; 
-   border: 3px solid darkgrey;
+  border-radius: 5px;
    
+}
+
+input[type=email] {
+    width: 50%;
+    padding: 10px;
+   margin: 30px; 
+  border-radius: 5px
 }
 
 label { 
@@ -48,6 +51,10 @@ label {
     padding-left: 5px;
 } 
 
+#byname {
+   position: relative;
+   right: 46%;
+}
 #latestnewscarousel h5 {
     font-size: xx-large;
    
@@ -61,6 +68,100 @@ label {
     padding-left: 8px;
 } 
 
+
+#main-nav {
+    padding-right: 5%;
+  
+ } 
+ 
+footer {
+    color: white;
+    background-color: rgb(46, 44, 44) ;
+    padding: 5%;
+    margin-top: 10%;
+   
+} 
+
+#footer-flex {
+  display: flex;
+  flex-direction: row-reverse;
+ justify-content: space-evenly;
+} 
+
+
+#twitter-icon,
+#instagram-icon {
+    margin-left: 1em;
+}
+
+#footer-content {
+  position: relative;
+  left: 30%;
+  top: 5em; 
+}
+
+
+#footer-info {
+  margin-top: 5em;
+  font-size: 21px;
+}
+ 
+#social-icons {
+  margin-top: 3em;
+  padding-inline-start: 2em; 
+
+} 
+
+
+  .footer-logo {
+    max-width: 30%;
+    height: auto;
+    position: relative;
+    left: 50%;
+    border-radius: 10px;
+  } 
+
+  @media (max-width:  991.98px) {
+    footer {
+     overflow: hidden;
+    }
+  }
+  @media (max-width: 991.98px) {
+    #footer-flex {
+      display: flex;
+      flex-direction: column;
+    
+    }
+     
+  }  
+
+  @media (max-width:  991.98px) {
+    #footer-img {
+     max-width: 30em;
+     position: relative; 
+     right: 2em;
+    
+    }
+  }
+
+  @media (max-width:  991.98px){
+    #facebook-icon,
+    #twitter-icon,
+    #instagram-icon {
+      display: inline-flex;
+      position: relative;
+      right: 0.5em;
+    } 
+  }
+
+  @media (max-width:  991.98px) {
+    #footer-info {
+     position: relative; 
+     right: 1em;
+     bottom: 2em;
+     
+    }
+  } 
 
 
 
